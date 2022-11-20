@@ -48,10 +48,10 @@ while True:
     if ortalama > 70:
         print("Harika çok başarılısın...")
     
-    elif ortalama > 60 <= 70:
+    elif ortalama > 50 >= 70:
         print("Biraz daha gayret gösterirsen başarabilirsin...")
     
-    elif ortalama < 60:
+    elif ortalama < 50:
         print("Diğer dönem baya çalışman gerek...")
     
     print("Not ortalamanız", ortalama)
