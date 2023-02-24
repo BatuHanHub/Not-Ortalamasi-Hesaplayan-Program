@@ -38,7 +38,12 @@ def kaydet():
 
 pencere = Tk()
 
+pencere.title('Not Ortalaması Hesaplayıcı')
+pencere.iconbitmap('icon.ico')
 pencere.configure(bg='#3B3939')
+
+pencere.minsize(950,650)
+pencere.attributes('-topmost', True)
 
 not1Frame = Frame(pencere)
 not2Frame = Frame(pencere)
